@@ -1,10 +1,12 @@
-# Portfolio Project 1 - Classification
+# Portfolio Project 3 - Classification
 
 ## Bank Marketing
 
 ### General Overview
 The business aim of the project is to increase efficiency of bank marketing campaign offering a bank deposit to the clients.
-We took historic data describing results of previous campaigns and create a Machine Learning binary classification model predicting if the client is likely to accept the offer. Such a model can reduce the cost of campaign - we can more efficiently choose the client to contact and increase the number of bank deposits. 
+We took historic data describing results of previous campaigns and create a Machine Learning binary classification model. The model predicts if the client is likely to accept the bank deposit offer. Such a model can reduce the cost of marketing campaign - we can more efficiently choose the client to contact and increase the number of bank deposits and reduce a cost of a campaign. 
+
+
 
 ### Data Used
 I used the public available data stets available to 
@@ -22,7 +24,7 @@ Citation:
   
  [bib] http://www3.dsi.uminho.pt/pcortez/bib/2011-esm-1.txt
 
-
+The full data description can be found in the *bank-names.txt*.
 
 ### Project contents
 
@@ -33,12 +35,12 @@ The project contains two notebooks EDA1 and EDA2 where data preparation is done.
 
 Since project contains both categorical and numerical data the standardisation and transformation data from categories into numeric values was done.
 
-The third file ML training contains comparison of different classification algorithms. The optimisation within an algorithm also was made.
+The third notebook: *ML training* contains comparison of different classification algorithms. The optimisation within an algorithm also was made.
 
 ### Algorithms used
 
-
-1. K Nearest Neighbours
+We have used the following algorithms: 
+1. K Nearest Neighborers
 2. Naive Bayes
 3. Support Vector Machine
 4. Logistic Regression
@@ -51,9 +53,8 @@ The third file ML training contains comparison of different classification algor
 The Decision Tree was most effective algorithm with 92,7% accuracy.
 
 
+Future improvements: to add new algorithms and perform more systematic hyperparameter tuning for all models. 
 
-Future improvements are planned. Some are marked in TODO comments, also I am going to add new algorithms.
-
-*This is version 0.9 from 28 December 2020.*
+*This is version 0.9.1 from 7 January 2021.*
 
 
