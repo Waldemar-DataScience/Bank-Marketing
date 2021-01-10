@@ -50,7 +50,7 @@ We have used the following algorithms:
 
 ### Summary
 
-The Decision Tree was most effective algorithm with 92,7% accuracy.
+The  most effective algorithm has the accuracy more than  92%.
 
 
 Future improvements: to add new algorithms and perform more systematic hyperparameter tuning for all models. 
